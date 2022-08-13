@@ -113,7 +113,9 @@ http://<YOUR IP>:9090
 
 Go to your Astra instance and get prometheus configuration details for Astra Streaming. Download the configuration file in order to get your secret credentials
 
-![Screen Shot 2022-08-13 at 8.54.03 AM.png](:storage/1ec698cc-e5b8-4beb-9c95-2590270ccd6b/97d3145f.png)
+<p align="center">
+<img width="600" height="500" src="https://user-images.githubusercontent.com/67383481/184478444-3e1fe14f-5ecd-495b-aed1-dde8eb59dfd7.png">
+</p>
 
 
 This is my downloaded Astra Streaming configuration file for prometheus:
