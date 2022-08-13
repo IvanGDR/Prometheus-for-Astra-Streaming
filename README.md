@@ -81,7 +81,7 @@ Start prometheus service
 ```
 $ sudo systemctl start prometheus
 ```
-Check prometeus service status
+Check prometheus service status
 ```
 $ sudo systemctl status prometheus
 ```
@@ -224,7 +224,7 @@ scrape_configs:
     static_configs:
       - targets: ['prometheus-gcp-useast1.streaming.datastax.com']
 ```
-Prometheus GUI will show two targets, including "astra-pulsar-metrics".
+Restart Prometheus service and refresh Prometheus GUI, it will show two targets, including "astra-pulsar-metrics".
 
 ## Testing Prometheus for Astra Streaming:
 
