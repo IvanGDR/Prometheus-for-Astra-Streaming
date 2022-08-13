@@ -95,7 +95,7 @@ $ sudo systemctl status prometheus
            └─25413 /opt/prometheus/prometheus-2.37.0.linux-amd64/prometheus --config.file /opt/prometheus/prom
 ```
 
-additionally, in order to turn service on next reboot
+additionally, in order to turn on service on next reboot
 ```
 sudo systemctl enable prometheus
 ```
