@@ -100,14 +100,15 @@ additionally, in order to turn service on next reboot
 sudo systemctl enable prometheus
 ```
 
-
-
 Go to your favourity browser to open the GUI:
 ```
 http://<YOUR IP>:9090
 ````
 
-![Screen Shot 2022-08-13 at 8.46.31 AM.png](:storage/1ec698cc-e5b8-4beb-9c95-2590270ccd6b/dda2b431.png)
+<p align="center">
+<img width="900" height="300" src="https://user-images.githubusercontent.com/67383481/184478745-da95c709-4bba-44d5-8f6f-e2f8b5138161.png">
+</p>
+
 
 # Set up Astra Streaming
 
