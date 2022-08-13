@@ -224,7 +224,7 @@ scrape_configs:
     static_configs:
       - targets: ['prometheus-gcp-useast1.streaming.datastax.com']
 ```
-
+Prometheus GUI will show two targets, including "astra-pulsar-metrics".
 
 ## Testing Prometheus for Astra Streaming:
 
