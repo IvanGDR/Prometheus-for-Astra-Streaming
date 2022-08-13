@@ -1,4 +1,4 @@
-# Install Prometheus (ubuntu) and scrap metrics for Astra Streaming
+# Install Prometheus (ubuntu) and scrap metrics from Astra Streaming
 
 ## Configure Prometheus
 ```
