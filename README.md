@@ -1,6 +1,6 @@
 # Install Prometheus (ubuntu) and scrap metrics for Astra Streaming
 
-## Congfigure Prometheus
+## Configure Prometheus
 ```
 $ sudo apt update
 ```
@@ -231,9 +231,16 @@ First, go to your Astra Streaming GUI and create a tenant, namespace and topic.
 
 Second in Astra Streaming GUI go to "Try" Me tab and send a message:
 
-![Screen Shot 2022-08-13 at 9.45.17 AM.png](:storage/1ec698cc-e5b8-4beb-9c95-2590270ccd6b/98dbbe2f.png)
+
+<p align="center">
+<img width="900" height="300" src="https://user-images.githubusercontent.com/67383481/184478683-671bbda0-6b35-458a-8c90-408142731ffd.png">
+</p>
+
 
 
 Third go to prometheus GUI and in the graph tab  within the search bar start typing pulsar, all the scrapped metrics available can be seen at this stage, choose one to visualise it:
 
-![Screen Shot 2022-08-13 at 9.47.42 AM.png](:storage/1ec698cc-e5b8-4beb-9c95-2590270ccd6b/6ced41dc.png)
+<p align="center">
+<img width="900" height="300" src="https://user-images.githubusercontent.com/67383481/184478634-372119d2-7dcf-42d3-97b9-987dc4a3ed08.png">
+</p>
+
