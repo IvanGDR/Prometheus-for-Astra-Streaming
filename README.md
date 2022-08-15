@@ -139,7 +139,7 @@ scrape_configs:
       - targets: ['prometheus-gcp-useast1.streaming.datastax.com']
 ```
 
-### Modify prometheus.yaml
+### Modify prometheus.yml
 
 prometheus.yml before changes
 ```
