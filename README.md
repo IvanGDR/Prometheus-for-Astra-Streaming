@@ -18,15 +18,15 @@ $ opt/prometheus > curl -LO url -LO https://github.com/prometheus/prometheus/rel
 ```
 Untar downloaded file
 ```
-$ /opt/prometheus> tar -xvf prometheus-2.37.0.linux-amd64.tar.gz
+$ /opt/prometheus > tar -xvf prometheus-2.37.0.linux-amd64.tar.gz
 ```
 Access new directory created after untaring it:
 ```
-$ /opt/prometheus> cd prometheus-2.37.0.linux-amd64/
+$ /opt/prometheus > cd prometheus-2.37.0.linux-amd64/
 ```
 List content of prometheus directory 
 ```
-$ /opt/prometheus/prometheus-2.37.0.linux-amd64> ls -la
+$ /opt/prometheus/prometheus-2.37.0.linux-amd64 > ls -la
 ```
 ```
 -rw-r--r-- 1 automaton automaton     11357 Jul 14 15:30 LICENSE
@@ -41,12 +41,12 @@ drwxr-xr-x 2 automaton automaton      4096 Jul 14 15:30 consoles
 
 Make /data directory for prometheus
 ```
-$ /opt/prometheus/prometheus-2.37.0.linux-amd64> sudo mkdir data
+$ /opt/prometheus/prometheus-2.37.0.linux-amd64 > sudo mkdir data
 ```
 
 Change ownership to the created data directory
 ```
-$ /opt/prometheus/prometheus-2.37.0.linux-amd64> sudo chown -R automaton:automaton data
+$ /opt/prometheus/prometheus-2.37.0.linux-amd64 > sudo chown -R automaton:automaton data
 ```
 
 Create service file for prometheus
@@ -97,7 +97,7 @@ $ sudo systemctl status prometheus
 
 additionally, in order to turn on service on next reboot
 ```
-sudo systemctl enable prometheus
+$ sudo systemctl enable prometheus
 ```
 
 Go to your favourite browser to open the GUI:
@@ -143,7 +143,7 @@ scrape_configs:
 
 prometheus.yml before changes
 ```
-$ /opt/prometheus/prometheus-2.37.0.linux-amd64$ cat prometheus.yml
+$ /opt/prometheus/prometheus-2.37.0.linux-amd64 > cat prometheus.yml
 ```
 ```
 # my global config
@@ -180,7 +180,7 @@ scrape_configs:
 
 prometheus.yml after changes
 ```
-$ /opt/prometheus/prometheus-2.37.0.linux-amd64$ vi prometheus.yml
+$ /opt/prometheus/prometheus-2.37.0.linux-amd64 > vi prometheus.yml
 ```
 ```
 # my global config
