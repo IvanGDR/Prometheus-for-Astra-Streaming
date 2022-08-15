@@ -242,6 +242,6 @@ Second in Astra Streaming GUI go to "Try" Me tab and send a message:
 Third go to prometheus GUI and in the graph tab  within the search bar start typing pulsar, all the scrapped metrics available can be seen at this stage, choose one to visualise it:
 
 <p align="center">
-<img width="900" height="300" src="https://user-images.githubusercontent.com/67383481/184478634-372119d2-7dcf-42d3-97b9-987dc4a3ed08.png">
+<img width="900" height="400" src="https://user-images.githubusercontent.com/67383481/184478634-372119d2-7dcf-42d3-97b9-987dc4a3ed08.png">
 </p>
 
