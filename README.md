@@ -100,9 +100,9 @@ additionally, in order to turn on service on next reboot
 sudo systemctl enable prometheus
 ```
 
-Go to your favourity browser to open the GUI:
+Go to your favourite browser to open the GUI:
 ```
-http://<YOUR IP>:9090
+http://<YOUR PROMETHEUS IP>:9090
 ````
 
 <p align="center">
