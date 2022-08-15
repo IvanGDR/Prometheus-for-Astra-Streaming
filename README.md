@@ -20,7 +20,7 @@ Untar downloaded file
 ```
 $ /opt/prometheus> tar -xvf prometheus-2.37.0.linux-amd64.tar.gz
 ```
-Access newl directory created after untaring it:
+Access new directory created after untaring it:
 ```
 $ /opt/prometheus> cd prometheus-2.37.0.linux-amd64/
 ```
