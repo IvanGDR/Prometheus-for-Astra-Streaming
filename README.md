@@ -234,7 +234,7 @@ Second in Astra Streaming GUI go to "Try" Me tab and send a message:
 
 
 <p align="center">
-<img width="900" height="450" src="https://user-images.githubusercontent.com/67383481/184478683-671bbda0-6b35-458a-8c90-408142731ffd.png">
+<img width="800" height="450" src="https://user-images.githubusercontent.com/67383481/184478683-671bbda0-6b35-458a-8c90-408142731ffd.png">
 </p>
 
 
