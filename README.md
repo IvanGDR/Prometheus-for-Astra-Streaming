@@ -6,7 +6,7 @@ $ sudo apt update
 ```
 ```
 Hit:1 http://repomirror.sjc.dsinternal.org/ubuntu bionic InRelease
-Hit:2 
+Hit:2 .....
 ```
 
 Download Prometheus
